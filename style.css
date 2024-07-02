@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(148, 156, 156);
+}
+h1{
+    color:red
+}
+.joke_paragraph{
+    font-size: 25px;
+}
+.main_container{
+    width:80%;
+    margin: auto;
+    border: 1px solid rgb(119, 122, 122);;
+    margin-top: 10%;
+    text-align: center;
+    height: 210px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(4, 4, 4, 0.3);
+}
+.btn{
+    width:160px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0px solid rgb(119, 122, 122);
+    font-weight: 10px;
+    background-color: rgb(37, 38, 38);
+    color: #fff;
+    &:hover{
+        background-color: rgb(92, 94, 94)
+    }
+}
+
